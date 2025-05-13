@@ -1,0 +1,37 @@
+/* Общие стили */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Контейнер с шириной 1200px, центрированный */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Стили для шапки */
+.site-header {
+  background-color: #373A3C;
+  color: #f5f0f0;
+  line-height: 70px;
+  font-size: 18px;
+}
+
+.main-nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  color: inherit;
+  padding: 0 15px;
+
+}
+
+main img {
+  width: 100%;
+}
